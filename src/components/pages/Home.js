@@ -1,11 +1,13 @@
 import React from 'react';
-// import '../../App.css';
-import TitleBar from '../TitleBar';
+import '../../App.css';
+import Navbar from '../Navbar';
 
 
 function Home() {
   return (
-      <TitleBar/>
+    <>
+      <Navbar/>
+    </>
   );
 }
 
