@@ -1,7 +1,6 @@
 import React from 'react';
 import '../../App.css';
 import GithubCards from '../GithubCards';
-import HomeMain from '../GithubCards';
 import Navbar from '../Navbar';
 
 
