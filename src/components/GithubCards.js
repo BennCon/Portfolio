@@ -16,7 +16,7 @@ function GithubCards() {
   }, []);
 
   return (
-    <div class="Main">
+    <div class="GithubCards">
       <div class="TitleArea">
         <h2>Here are some of my coding projects:</h2>
         <p>(Automatically pulled from GitHub using their API)</p>
@@ -26,8 +26,8 @@ function GithubCards() {
           repos && repos.map(repo => {
             return (
               <div className="Card" key={repo.id} style={{ alignItems: 'center', margin: '20px 60px' }}>
-                <a href={repo.html_url}>{repo.name}</a>
-                <p>{repo.description}</p>
+                <a class="CardTitle" href={repo.html_url}>{repo.name}</a>
+                <a href={repo.html_url}>{repo.description}</a>
               </div>
             )
           })
