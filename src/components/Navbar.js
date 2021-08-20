@@ -27,11 +27,11 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/page1'
+                to='/code'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Page 1
+                Code
               </Link>
             </li>
           </ul>

@@ -6,7 +6,7 @@ function GithubCards() {
   //Gets array of repos from github api
   const [repos, setRepos] = useState([]);
   useEffect(() => {
-    const url = 'https://api.github.com/user/repos?sort=updated&visibility=public';
+    const url = 'https://api.github.com/user/repos?visibility=public';
     const access_token = process.env.REACT_APP_GITHUB;
     const fetchRepos = async () => {
       const response = await axios(url, { headers: { 'Authorization': access_token } });

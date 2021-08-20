@@ -4,12 +4,13 @@ import GithubCards from '../GithubCards';
 import Navbar from '../Navbar';
 
 
-function Home() {
+function Code() {
   return (
     <div class="home">
       <Navbar/>
+      <GithubCards/>
     </div>
   );
 }
 
-export default Home;
+export default Code;
