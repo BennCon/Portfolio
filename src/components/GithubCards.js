@@ -16,7 +16,7 @@ function GithubCards() {
   }, []);
 
   return (
-    <div class="GithubCards">
+    <div class="CenteredMain">
       <div class="TitleArea">
         <h2>Here are some of my coding projects:</h2>
         <p>(Automatically pulled from GitHub using their API)</p>

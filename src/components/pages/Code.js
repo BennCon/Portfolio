@@ -6,7 +6,7 @@ import Navbar from '../Navbar';
 
 function Code() {
   return (
-    <div class="home">
+    <div class="Code">
       <Navbar/>
       <GithubCards/>
     </div>
