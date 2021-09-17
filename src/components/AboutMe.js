@@ -1,4 +1,3 @@
-import './GithubCards.css';
 import logo from './me.jpg';
 import './AboutMe.css'
 
@@ -10,7 +9,6 @@ function AboutMe() {
                 <div className="TitleArea">
                     <h2>About Me</h2>
                 </div>
-                <br/>
                 <p1>I'm Ben, a second year computer science student at The University of Sheffield.</p1>
 
                 <br/><br/>
