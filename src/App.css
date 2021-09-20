@@ -1,3 +1,9 @@
+:root {
+    --bkg-col:#EFE2BA;
+    --bright-acc: #943d24;
+    --sec-col: #4056A1;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -16,7 +22,7 @@ p1 {
     bottom: 0;
     right: 0;
     overflow: auto;
-    background-color: #EFE2BA;
+    background-color: var(--bkg-col);
     height: 100%;
     align-items: center;
 }
@@ -29,7 +35,7 @@ p1 {
     bottom: 0;
     right: 0;
     overflow: auto;
-    background-color: #EFE2BA;
+    background-color: var(--bkg-col);
     height: 100%;
     align-items: center;
 }
