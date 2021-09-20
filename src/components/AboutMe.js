@@ -18,7 +18,7 @@ function AboutMe() {
                 <p1>As a student, I am especially interesting in machine learning and algorithm development. I am looking forward to
                     developing these skills further in my second year of university, and hope that a third year industry placement
                     allows me to put those skills into practise. <br/>
-                    Outside of university work, I am a keen musician and currently the coordinator of a 
+                    Outside of university work, I am a keen musician and currently the coordinator of a&nbsp;
                     <a href="https://musicplayers.union.shef.ac.uk/bands/big-band/">university jazz band</a>.
                 </p1>
 
